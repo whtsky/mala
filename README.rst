@@ -12,8 +12,8 @@ Usage
 
     loop = asyncio.get_event_loop()
     metainfo = loop.run_until_complete(get_metadata(
-        'infohash', 'ip', 'port', loop=self.loop
-    )
+        'infohash', 'ip', 'port', loop=loop
+    ))
 
 
 Or, use with `Maga <https://github.com/whtsky/maga>`_
